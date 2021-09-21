@@ -27,6 +27,11 @@
             About
           </router-link>
         </li>
+        <li>
+          <router-link :to="{ name: 'Gallery' }" class="btn text-success lighten-30 selectable text-uppercase">
+            Gallery
+          </router-link>
+        </li>
       </ul>
       <span class="navbar-text">
         <button
